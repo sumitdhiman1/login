@@ -125,7 +125,7 @@ $address = $_POST['address'];
 
 $run = mysqli_query($con,$update_record);
 if($run){
-  echo "<script>alert('inserted')</script>";
+  echo "<script>window.open('view.php','_self')</script>";
 }
 else
 {

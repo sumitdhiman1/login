@@ -10,6 +10,7 @@
 	$run_delete = mysqli_query($con, $delete_pro); 
 	
 	if($run_delete){
+		echo "<script>window.open('view.php','_self')</script>";
 	
 	echo "record deleted";
 	

@@ -61,6 +61,9 @@
 				<td colspan="2" align="center"><input type="submit" name="button" value="save"></td>
 			</tr>
 		</table>
+
+
+		<h2>For viewing all records <a href="view.php"> click here</a></h2>
 		
 
 	</form>
